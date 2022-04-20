@@ -1,0 +1,32 @@
+.piano {
+  width: 550px;
+  background-image: linear-gradient(white, black);
+
+  border: 5px solid black;
+  padding: 5vh;
+}
+.black {
+  height: 4vh;
+  width: 11vw;
+  background-color: black;
+  border-radius: 5px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top: -2.5vh;
+  transition: all 0.2s;
+}
+.white {
+  height: 7vh;
+  width: 22vw;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid black;
+  transition: all 0.2s;
+}
+.black:hover{ width: 10vw;
+    background-image: linear-gradient( to right, rgba(0, 0, 0,0),rgba(255, 255, 255, 0.2));
+}
+.white:hover{ width: 20vw;
+     background-image: linear-gradient( to right, rgba(0, 0, 0,0),rgba(0, 0, 0, 0.5));
+
+}
